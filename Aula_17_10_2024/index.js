@@ -19,6 +19,9 @@ app.post('/adicionar', (req, res) =>{  //localhost:3000/adicionar/nome=Ana (post
     res.send(`Nome: ${nome}`);
 })
 
+//testar a rota POST no terminal: curl -X POST http://localhost:3000/adicionar -d "nome=Fulano"​
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
